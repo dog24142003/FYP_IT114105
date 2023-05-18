@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc630d69-4a02-4d7b-9fad-97c50117d769" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ai_py/.ipynb_checkpoints/AI_project_1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_py/AI_project_FYP.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_py/recommenAPI.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Group_01_Clarence_Lau_InterimReport.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/The opening.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/css/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/css/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/Book_test/Mock-Up_BlueBookCopernicus_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/ChatIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/NoteBookIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/bg_banner1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/bg_banner2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/c2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/courseIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/project1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/project2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/project3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/project4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/project5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/suject_ICT_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/suject_art_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/suject_bafs_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/suject_biology_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/suject_chemistry_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/suject_chineseHistory_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/suject_chinese_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/suject_economic_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/suject_english_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/suject_generalEducation_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/suject_geography_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/suject_history_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/suject_m1_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/suject_m2_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/suject_math_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/suject_physics_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/team_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/team_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/team_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/img/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client web/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/tutorcatdb.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/header_abosulte.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/header_abosulte.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/notes/NotesList.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/notes/NotesList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/notes/viewNotesDetails.php" beforeDir="false" afterPath="$PROJECT_DIR$/Common/notes/viewNotesDetails.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buyCourse.php" beforeDir="false" afterPath="$PROJECT_DIR$/buyCourse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buyCourse_sql.php" beforeDir="false" afterPath="$PROJECT_DIR$/buyCourse_sql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatroom/chatusers.php" beforeDir="false" afterPath="$PROJECT_DIR$/chatroom/chatusers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatroom/realTimeChat.php" beforeDir="false" afterPath="$PROJECT_DIR$/chatroom/realTimeChat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createCourse.php" beforeDir="false" afterPath="$PROJECT_DIR$/createCourse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/payment.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/payment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delCourse.php" beforeDir="false" afterPath="$PROJECT_DIR$/delCourse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_admin_profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/page_admin_profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_report_View.php" beforeDir="false" afterPath="$PROJECT_DIR$/page_report_View.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_student_profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/page_student_profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_teacher_profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/page_teacher_profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_viewTeacher_profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/page_viewTeacher_profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_viewTeachers.php" beforeDir="false" afterPath="$PROJECT_DIR$/page_viewTeachers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/point/buy_point.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/point/payment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/point/point.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/notes/StuNotesList.php" beforeDir="false" afterPath="$PROJECT_DIR$/student/notes/StuNotesList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/notes/buynotes.php" beforeDir="false" afterPath="$PROJECT_DIR$/student/notes/buynotes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/notes/doBuyNotes.php" beforeDir="false" afterPath="$PROJECT_DIR$/student/notes/doBuyNotes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teacher/notes/doCreateNt.php" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/notes/doCreateNt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teacher/notes/doEditNotes.php" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/notes/doEditNotes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teacher/notes/viewNotesDetails.php" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/notes/viewNotesDetails.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teacher/notes/viewNotesList.php" beforeDir="false" afterPath="$PROJECT_DIR$/teacher/notes/viewNotesList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teacher/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/updateProfile.php" beforeDir="false" afterPath="$PROJECT_DIR$/updateProfile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadIcon.php" beforeDir="false" afterPath="$PROJECT_DIR$/uploadIcon.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/vendor_s3/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor_s3/vendor/guzzle/guzzle" />
+      <path value="$PROJECT_DIR$/vendor_s3/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor_s3/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor_s3/vendor/aws/aws-sdk-php" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2KVhLd0WNZqu6YN6XbTP0Gswewy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\phpweb\fyp\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc630d69-4a02-4d7b-9fad-97c50117d769" name="Changes" comment="" />
+      <created>1674065614943</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674065614943</updated>
+      <workItem from="1674065663960" duration="5991000" />
+      <workItem from="1674089540182" duration="10000" />
+      <workItem from="1681602346525" duration="37000" />
+      <workItem from="1682180875491" duration="811000" />
+      <workItem from="1682182808738" duration="869000" />
+      <workItem from="1682187458335" duration="10234000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

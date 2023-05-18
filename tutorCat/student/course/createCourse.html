@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../../css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="../../css/owl.theme.default.min.css" />
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../../css/style.css" />
+
+  <!-- custom css for book rating & teacher rating -->
+  <link rel="stylesheet" href="./rating.css" ; />
+
+  <title>Prixima BS5 Template</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+  <!-- BOTTOM NAV -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Tutor Cat<span class="dot">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Couse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">NoteBook</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Profile</a>
+          </li>
+        </ul>
+        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Sign up</a>
+
+        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Login</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="HereIsMain" class="text-center">
+    <div class="bg-warning">
+      <div class="container">
+        <h2 class="text-start">Make your Course</h2>
+      </div>
+    </div>
+
+    <form action="../noteBook/doCreateBK.php" id="CreBookFm" method="post" enctype="multipart/form-data">
+      <div class="container">
+        <div class="row p-2 mb-3">
+          <div class="col">
+            <div class="row p-2 border">
+              <div class="row">Course Name :</div>
+
+              <div class="row">
+                <input type="text" name="bookName" class="form-control" required />
+              </div>
+
+              <div class="row">Price :</div>
+
+              <div class="row">
+                <input type="number" name="bookPrice" class="form-control" min="0" required />
+              </div>
+
+              <div class="row">Your Course Subject :</div>
+
+              <div class="row">
+                <select name="bookSubject" class="form-select form-select-lg mb-3 form-control"
+                  aria-label=".form-select-lg example" required>
+                  <option disabled selected>
+                    Select the subject of your course
+                  </option>
+                  <option value="chinese">Chinese</option>
+                  <option value="english">English</option>
+                  <option value="math">math</option>
+                  <option value="generalEducation">General Education</option>
+                  <option value="m1">M1</option>
+                  <option value="m2">M2</option>
+                  <option value="biology">Biology</option>
+                  <option value="chemistry">Chemistry</option>
+                  <option value="physics">Physics</option>
+                  <option value="chineseHistory">Chinese History</option>
+                  <option value="history">History</option>
+                  <option value="bafs">BAFS</option>
+                  <option value="geography">Geography</option>
+                  <option value="economic">Economic</option>
+                  <option value="visualArt">Visual Art</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col border">
+            <div class="row p-2">
+              <div class="row">Course Description :</div>
+
+              <div class="border border-dark h-auto">
+                <div class="form-outline w-100 h-100">
+                  <textarea class="form-control" form="CreBookFm" name="bookDetails" id="textAreaExample5" rows="7">Enter the Course Description in here.
+                    </textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col m-2">
+            <div class="row bg-warning text-dark rounded-pill">
+              <p class="h5">Date</p>
+            </div>
+            
+            <div class="row border text-start p-2  mt-2">
+            <div class="row">Start Date :</div>
+
+            <div class="row">
+              <input type="date" name="bookName" class="form-control" required />
+            </div>
+            <div class="row">End Date :</div>
+
+            <div class="row">
+              <input type="date" name="bookPrice" class="form-control" min="0" required />
+            </div>
+            </div>
+
+
+          </div>
+		  
+          <div class="col m-2">
+            <div class="row bg-warning text-dark rounded-pill">
+              <p class="h5">Time</p>
+            </div>
+            
+            <div class="row border text-start p-2  mt-2" style="height: 20rem;">
+              <div>
+                <div class="row">Start Date :</div>
+                <input type="time" name="bookPrice" class="form-control" min="0" required/>
+              </div>
+
+              <div>
+                <div class="row">End Date :</div>
+                <input type="time" name="bookPrice" class="form-control" min="0" required/>
+              </div>
+              <div>
+                <div class="row">Number of Course :</div>
+                <input type="number" name="bookPrice" class="form-control" min="0" required/>
+              </div>
+            </div>
+
+          </div>
+		  
+        </div>
+
+        <div class="row m-4">
+          <div class="col">
+            <Button class="btn btn-secondary" id="Btn_cancel">Cancel</Button>
+          </div>
+          <div class="col">
+            <input type="hidden" name="tutorID" id="tutorID" value="10003">
+            <input class="btn btn-warning" type="submit" name="craeteBookSubmit" value="Create">
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+    </form>
+  </section>
+
+  <!-- get file type when user uploaded the fle -->
+
+  <script src="../../js/jquery.min.js"></script>
+  <script src="../../js/bootstrap.bundle.min.js"></script>
+  <script src="../../js/owl.carousel.min.js"></script>
+  <script src="../../js/app.js"></script>
+</body>
+
+</html>

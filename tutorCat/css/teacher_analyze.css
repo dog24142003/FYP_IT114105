@@ -1,0 +1,9 @@
+#myChart, #myChart2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    max-width: 600px;
+}
+#Chart{
+    display: inline-block;
+}

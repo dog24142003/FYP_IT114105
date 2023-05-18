@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../../css/bootstrap.min.css" />
+	<link rel="stylesheet" href="../../css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="../../css/owl.theme.default.min.css" />
+	<link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="../../css/style.css" />
+
+
+	<!--Css for list-->
+	<link rel="stylesheet" href="../../css/courseList.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha256-3sPp8BkKUE7QyPSl6VfBByBroQbKxKG7tsusY2mhbVY=" crossorigin="anonymous" />
+	<title>Course</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+	<!-- BOTTOM NAV -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">Tutor Cat<span class="dot">.</span></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">Course</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#services">NoteBook</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#portfolio">Profile</a>
+					</li>
+				</ul>
+				<a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Sign up</a>
+
+				<a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Login</a>
+			</div>
+		</div>
+	</nav>
+	<!--Course List-->
+	<div class="container">
+
+
+		<div class="row">
+			<div class="col-lg-10 mx-auto">
+				<div class="career-search mb-60">
+
+					<form action="#" class="career-form mb-60">
+						<div class="row">
+							<div class="col-md-6 col-lg-3 my-3">
+								<div class="input-group position-relative">
+									<input type="text" class="form-control" placeholder="Enter Your Keywords" id="keywords">
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-3 my-3">
+									<select class="custom-select">
+										<option selected="">Chinese</option>
+										<option value="1">English</option>
+										<option value="2">Mathematics</option>
+										<option value="3">M1</option>
+										<option value="4">M2</option>
+										<option value="5">Biology</option>
+										<option value="6">Chemical</option>
+										<option value="7">Chinese History</option>
+										<option value="8">History</option>
+										<option value="9">Economic</option>
+										<option value="10">Geography</option>
+										<option value="11">Physics</option>
+										<option value="12">Accounting</option>
+										<option value="13">ICT</option>
+										<option value="14">Art</option>
+									</select>
+							</div>
+							<div class="col-md-6 col-lg-3 my-3">
+									<select class="custom-select">
+										<option selected="">Select Teacher Type</option>
+										<option value="1">Professional</option>
+										<option value="2">Community</option>
+									</select>
+							</div>
+							<div class="col-md-6 col-lg-3 my-3">
+								<button type="button" class="btn btn-lg btn-block btn-light btn-custom" id="contact-submit">
+									Search
+								</button>
+							</div>
+						</div>
+					</form>
+
+					<div class="filter-result">
+						<p class="mb-30 ff-montserrat">Updated Teacher List</p>
+						<!-- <?php
+        					require_once('../../conn.php');
+							$sql = "SELECT Tutor.name, Tutor.detail, Tutor.subject, Tutor.icon
+							FROM Teahcer NATURAL JOIN Course WHERE Teacher.teacherID = Course.teacherID ";
+							$rs = mysqli_query($conn, $sql)
+								or die(mysqli_error($conn));
+							while ($rc = mysqli_fetch_array($rs)) {
+							extract($rc);
+							$name = $rc[0];
+							$detail = $rc[1];
+							$subject = $rc[2];
+							$icon = $rc[3]; -->
+
+							
+						<div class="job-box d-md-flex align-items-center justify-content-between mb-30">
+							<div class="job-left my-4 d-md-flex align-items-center flex-wrap ">
+								<div class="img-holder mr-md-4 mb-md-0 mb-4 mx-auto mx-md-0 d-md-none d-lg-flex">
+									<img src="../../img/user/icon.jpeg" class="img-holder ">
+								</div>
+								<div class="job-content">
+									<h5 class="text-center text-md-left">$name</h5>
+									<ul class="d-md-flex flex-wrap text-capitalize ff-open-sans">
+										<li class="mr-md-4">
+											Subject: $subject
+										</li>
+
+									</ul>
+									<ul class="d-md-flex flex-wrap text-capitalize ff-open-sans">
+										<li class="mr-md-4">
+										$detail
+										</li>
+									</ul>
+									<ul class="d-md-flex flex-wrap text-capitalize ff-open-sans">
+										<li class="mr-md-4 text-body fs-5">
+											HK $100/hours
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="job-right my-4 flex-shrink-0">
+								<a href="#" class="btn d-block w-100 d-sm-inline-block btn-light">Apply now</a>
+							</div>
+						</div>
+							<!-- }
+							mysqli_free_result($rs);
+							?> -->
+
+				<!-- START Pagination -->
+				<nav aria-label="Page navigation">
+					<ul class="pagination pagination-reset justify-content-center">
+						<li class="page-item disabled">
+							<a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+								<i class="zmdi zmdi-long-arrow-left"></i>
+							</a>
+						</li>
+						<li class="page-item"><a class="page-link" href="#">1</a></li>
+						<li class="page-item d-none d-md-inline-block"><a class="page-link" href="#">2</a></li>
+						<li class="page-item d-none d-md-inline-block"><a class="page-link" href="#">3</a></li>
+						<li class="page-item"><a class="page-link" href="#">...</a></li>
+						<li class="page-item"><a class="page-link" href="#">8</a></li>
+						<li class="page-item">
+							<a class="page-link" href="#">
+								<i class="zmdi zmdi-long-arrow-right"></i>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- END Pagination -->
+			</div>
+		</div>
+
+	</div>
+
+	<script src="../../js/jquery.min.js"></script>
+	<script src="../../js/bootstrap.bundle.min.js"></script>
+	<script src="../../js/owl.carousel.min.js"></script>
+	<script src="../../js/app.js"></script>
+</body></html>
